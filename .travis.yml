@@ -16,8 +16,7 @@ matrix:
       python: "2.7"
     - os: linux 
       sudo: required 
-      python: "2.7"
-      env: PYVER="2.4"
+      python: "2.4"
 
 before_install:
   - date -u
